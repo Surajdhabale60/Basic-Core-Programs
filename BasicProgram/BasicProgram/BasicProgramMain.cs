@@ -27,12 +27,29 @@ namespace BasicProgram
                 }
                 else
                 {
-                    tails++;
+                    tails++; 
                 }
             }
             Console.WriteLine("You flipped a coin " + counter
-               + " times " + "and you got " + heads + " heads and " + tails + " tails.");
-            
-        }        
+               + " times " + "and you got " + heads + " heads and " + tails + " tails.");            
+        }
+        public void LeapYear()
+        {
+            {
+                Console.WriteLine("Enter Year: ");
+                int Year = int.Parse(Console.ReadLine());
+
+                if (((Year % 4 == 0) && (Year % 100 != 0)) || (Year % 400 == 0))
+                {
+
+                    Console.WriteLine("{0} is Leap Year.", Year);
+                }
+                else
+                {
+                    Console.WriteLine("{0} Is not a leap year.", Year);
+                }
+                Console.ReadLine();
+            }
+        }
     }
 }
