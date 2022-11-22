@@ -29,10 +29,6 @@
                         main3.HarmonicNumber();
                         break;
                     case 5:
-                        BasicProgramMain main4 = new BasicProgramMain();
-                        main4.QuotientandReminder();
-                        break;
-                    case 6:
                         BasicProgramMain main5 = new BasicProgramMain();
                         main5.SwapTwoNumbers();
                         break;
