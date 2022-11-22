@@ -8,7 +8,7 @@
             
             while(true)
             {
-                Console.WriteLine("Select Option\n 1.FlipCoin\n 2.LeapYear\n 3.PowerOfTwo");
+                Console.WriteLine("Select Option\n 1.Flip Coin\n 2.Leap Year\n 3.Power Of Two\n 4.Harmonic Number");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch(option)
                 {
@@ -23,6 +23,10 @@
                     case 3:
                         BasicProgramMain main2 = new BasicProgramMain();
                         main2.PowerOfTwo();
+                        break;
+                    case 4:
+                        BasicProgramMain main3 = new BasicProgramMain();
+                        main3.HarmonicNumber();
                         break;
 
                 }
