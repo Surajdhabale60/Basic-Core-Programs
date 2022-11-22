@@ -107,5 +107,14 @@ namespace BasicProgram
 
             Console.WriteLine("After Swap" + "\n" + "First Number Is " + a + "\n" + "Second Number Is " + b);
         }
+        public void EvenOdd()
+        {
+            Console.WriteLine("Enter Number");
+            int num = Convert.ToInt32(Console.ReadLine());
+            if (num % 2 == 0)
+                Console.WriteLine("Entered Number is even number");
+            else
+                Console.WriteLine("Entered Number is odd number");
+        }
     }
 }
