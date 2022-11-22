@@ -8,7 +8,7 @@
             
             while(true)
             {
-                Console.WriteLine("Select Option\n 1.Flip Coin\n 2.Leap Year\n 3.Power Of Two\n 4.Harmonic Number\n 5.Quotient And Reminder\n 6.Swap Two Numbers");
+                Console.WriteLine("Select Option\n 1.Flip Coin\n 2.Leap Year\n 3.Power Of Two\n 4.Harmonic Number\n 5.Swap Two Numbers");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch(option)
                 {
