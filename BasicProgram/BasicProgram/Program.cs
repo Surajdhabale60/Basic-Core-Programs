@@ -8,7 +8,7 @@
             
             while(true)
             {
-                Console.WriteLine("Select Option\n 1.Flip Coin\n 2.Leap Year\n 3.Power Of Two\n 4.Harmonic Number\n 5.Swap Two Numbers\n 6.Even Or Odd 7.Quotient And Reminder\n ");
+                Console.WriteLine("Select Option\n 1.Flip Coin\n 2.Leap Year\n 3.Power Of Two\n 4.Harmonic Number\n 5.Swap Two Numbers\n 6.Even Or Odd 7.Quotient And Reminder\n 8.Vowel and Consonant");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch(option)
                 {
@@ -40,6 +40,11 @@
                         BasicProgramMain main7 = new BasicProgramMain();
                         main7.QuotientandReminder();
                         break;
+                    case 8:
+                        BasicProgramMain main8 = new BasicProgramMain();
+                        main8.VowelConsonant();
+                        break;
+
                 }
             }
         }

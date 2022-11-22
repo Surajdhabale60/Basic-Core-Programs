@@ -83,17 +83,6 @@ namespace BasicProgram
                 Console.WriteLine(" Series is " + num);
             }
         }
-        public void QuotientandReminder()
-        {
-            Console.WriteLine("Enter Dividend");
-            int dividend = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter Divisor");
-            int divisor = Convert.ToInt32(Console.ReadLine());
-            int quotient = (dividend / divisor);
-            int reminder = (dividend % divisor);
-            Console.WriteLine("Quotient is  " + quotient);
-            Console.WriteLine("Remainder is " + reminder);
-        }
         public void SwapTwoNumbers()
         {
             Console.WriteLine("Enter First Number : ");
@@ -115,6 +104,35 @@ namespace BasicProgram
                 Console.WriteLine("Entered Number is even number");
             else
                 Console.WriteLine("Entered Number is odd number");
+        }
+        public void QuotientandReminder()
+        {
+            Console.WriteLine("Enter Dividend");
+            int dividend = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Divisor");
+            int divisor = Convert.ToInt32(Console.ReadLine());
+            int quotient = (dividend / divisor);
+            int reminder = (dividend % divisor);
+            Console.WriteLine("Quotient is  " + quotient);
+            Console.WriteLine("Remainder is " + reminder);
+        }
+        public void VowelConsonant()
+        {
+            Console.WriteLine("Enter any Alphabet: ");
+            char c = Convert.ToChar(Console.ReadLine());
+
+            if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ||
+                c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U')
+            {
+                Console.WriteLine(c + " is vowel.");
+
+            }
+            else
+            {
+                Console.WriteLine(c + " is consonant.");
+
+            }
+
         }
     }
 }
