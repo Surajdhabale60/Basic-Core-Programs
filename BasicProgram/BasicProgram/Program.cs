@@ -8,7 +8,7 @@
             
             while(true)
             {
-                Console.WriteLine("Select Option\n 1.Flip Coin\n 2.Leap Year\n 3.Power Of Two\n 4.Harmonic Number\n 5.Swap Two Numbers\n 6.Even Or Odd");
+                Console.WriteLine("Select Option\n 1.Flip Coin\n 2.Leap Year\n 3.Power Of Two\n 4.Harmonic Number\n 5.Swap Two Numbers\n 6.Even Or Odd\n 7.Quotient and Reminder");
                 int option = Convert.ToInt32(Console.ReadLine());
                 switch(option)
                 {
@@ -36,6 +36,10 @@
                         BasicProgramMain main6 = new BasicProgramMain();
                         main6.EvenOdd();
                         break;
+                   case 7:
+                        BasicProgramMain main7 = new BasicProgramMain();
+                        main7.QuotientandReminder();
+                        break;     
                 }
             }
         }
