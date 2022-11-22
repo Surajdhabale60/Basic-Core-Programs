@@ -83,5 +83,29 @@ namespace BasicProgram
                 Console.WriteLine(" Series is " + num);
             }
         }
+        public void QuotientandReminder()
+        {
+            Console.WriteLine("Enter Dividend");
+            int dividend = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Divisor");
+            int divisor = Convert.ToInt32(Console.ReadLine());
+            int quotient = (dividend / divisor);
+            int reminder = (dividend % divisor);
+            Console.WriteLine("Quotient is  " + quotient);
+            Console.WriteLine("Remainder is " + reminder);
+        }
+        public void SwapTwoNumbers()
+        {
+            Console.WriteLine("Enter First Number : ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Second Number : ");
+            int b = Convert.ToInt32(Console.ReadLine());
+
+            a = a + b;
+            b = a - b;
+            a = a - b;
+
+            Console.WriteLine("After Swap" + "\n" + "First Number Is " + a + "\n" + "Second Number Is " + b);
+        }
     }
 }
