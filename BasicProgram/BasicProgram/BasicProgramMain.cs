@@ -158,9 +158,13 @@ namespace BasicProgram
                     }
                 }
                 else if (num2 > num3)
+                {
                     Console.Write("The 2nd Number is the greatest among three.");
+                }
                 else
+                {
                     Console.Write("The 3rd Number is the greatest among three.");
+                }
             }
         }
     }
